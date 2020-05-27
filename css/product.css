@@ -1,0 +1,110 @@
+.product {
+  display: block;
+  width: calc(100% * 0.78);
+  margin: 0 auto;
+}
+
+.product__new-arrivals {
+  width: 100%;
+  height: 100%;
+}
+
+.product__new-arrivals-title {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.product__new-arrivals-item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 1% 0 1%;
+  max-width: 24.7%;
+  margin-bottom: 53px;
+  background-color: #fff;
+}
+
+.product__new-arrivals-item-img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product__new-arrivals-item-img:hover {
+  opacity: 0.5;
+}
+
+.product__new-arrivals-item-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product__new-arrivals-item-name {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+  height: 33px;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  color: black;
+}
+
+.product__new-arrivals-item-price-disc {
+  display: block;
+  width: 100%;
+  height: 12px;
+  margin: 10px 0px 5px 0px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: line-through;
+}
+
+.product__new-arrivals-item-price {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: black;
+}
+
+.product__new-arrivals-item-stock {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(126, 146, 201);
+}
+
+.product__new-arrivals-items {
+  margin-bottom: 50px;
+}
+
+/*
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+/* .product__monthly-best {
+  width: 100%;
+  height: 1000px;
+} */
+
+/* .skip {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+} */

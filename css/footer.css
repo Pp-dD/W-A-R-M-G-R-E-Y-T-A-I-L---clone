@@ -1,0 +1,79 @@
+.footer {
+  margin-top: auto;
+}
+
+.footer-top {
+  border-bottom: 1px solid rgb(187, 187, 187);
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  line-height: 23px;
+}
+
+.footer-bottom {
+  margin-bottom: 200px;
+  color: rgb(88, 88, 88);
+}
+
+.footer-top__logo {
+  width: 23%;
+  margin: auto 0;
+  margin-left: 14px;
+  margin-right: 70px;
+  color: rgb(48, 48, 48);
+  font-size: 1.4rem;
+  font-weight: 550;
+  letter-spacing: 0.3rem;
+  transform: scale(0.85, 1);
+  float: left;
+}
+
+.footer-top__social {
+  width: 45%;
+  font-size: 0.8rem;
+  float: left;
+  align-self: flex-end;
+}
+
+.footer-top__socal:after {
+  content: "";
+  width: 23%;
+}
+
+.footer-top__social a {
+  padding: 0 3px;
+}
+
+.footer-bottom__info {
+  width: 27%;
+  margin-top: 30px;
+  margin-left: 35px;
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: rgb(88, 88, 88);
+  float: left;
+}
+
+.footer-bottom__menu {
+  width: 15%;
+  font-size: 0.8rem;
+  float: left;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.footer-bottom__contacts1 {
+  width: 23%;
+  font-size: 0.8rem;
+  float: left;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.footer-bottom__contacts2 {
+  width: 23%;
+  font-size: 0.8rem;
+  float: left;
+  margin-top: 30px;
+  line-height: 25px;
+}

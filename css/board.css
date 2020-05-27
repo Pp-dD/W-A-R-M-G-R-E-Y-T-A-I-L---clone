@@ -1,0 +1,26 @@
+.board {
+  width: 1010px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+}
+
+.board__top {
+  display: flex;
+}
+
+.board__left img {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.board__right img {
+  margin-bottom: 10px;
+}
+
+.board__right a:nth-child(2) {
+  margin-right: 6px;
+}
+
+.board__bottom a:first-child {
+  margin-right: 6px;
+}
